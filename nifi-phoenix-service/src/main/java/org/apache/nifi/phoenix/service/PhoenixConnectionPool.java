@@ -47,16 +47,15 @@ import org.apache.commons.dbcp.BasicDataSource;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.security.UserGroupInformation;
-import org.apache.hive.jdbc.HiveDriver;
+import org.apache.phoenix.jdbc.PhoenixDriver;
 
 
 import org.apache.nifi.hadoop.KerberosProperties;
 import org.apache.nifi.hadoop.SecurityUtil;
 import org.apache.nifi.logging.ComponentLog;
-import org.apache.nifi.util.hive.AuthenticationFailedException;
+import org.apache.nifi.phoenix.util.AuthenticationFailedException;
 import org.apache.nifi.util.hive.HiveConfigurator;
-import org.apache.nifi.util.hive.HiveUtils;
-import org.apache.nifi.util.hive.ValidationResources;
+import org.apache.nifi.phoenix.util.ValidationResources;
 
 
 
@@ -225,7 +224,7 @@ public class PhoenixConnectionPool extends AbstractControllerService implements 
             }
         }
 
-        final String drv = HiveDriver.class.getName();
+        final String drv = PhoenixDriver.class.getName();
         if (SecurityUtil.isSecurityEnabled(hiveConfig)) {
             final String principal = context.getProperty(kerberosProperties.getKerberosPrincipal()).evaluateAttributeExpressions().getValue();
             final String keyTab = context.getProperty(kerberosProperties.getKerberosKeytab()).evaluateAttributeExpressions().getValue();
