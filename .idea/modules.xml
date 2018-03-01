@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/nifi-phoenix-service/nifi-phoenix-service.iml" filepath="$PROJECT_DIR$/nifi-phoenix-service/nifi-phoenix-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nifi-phoenix-service-api/nifi-phoenix-service-api.iml" filepath="$PROJECT_DIR$/nifi-phoenix-service-api/nifi-phoenix-service-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nifi-phoenix-service-api-nar/nifi-phoenix-service-api-nar.iml" filepath="$PROJECT_DIR$/nifi-phoenix-service-api-nar/nifi-phoenix-service-api-nar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nifi-phoenix-service-nar/nifi-phoenix-service-nar.iml" filepath="$PROJECT_DIR$/nifi-phoenix-service-nar/nifi-phoenix-service-nar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nifi-phoenix-services.iml" filepath="$PROJECT_DIR$/nifi-phoenix-services.iml" />
+    </modules>
+  </component>
+</project>

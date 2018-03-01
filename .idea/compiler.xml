@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="nifi-phoenix-service" />
+        <module name="nifi-phoenix-service-api" />
+        <module name="nifi-phoenix-service-api-nar" />
+        <module name="nifi-phoenix-service-nar" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="nifi-phoenix-service" target="1.8" />
+      <module name="nifi-phoenix-service-api" target="1.8" />
+      <module name="nifi-phoenix-service-api-nar" target="1.8" />
+      <module name="nifi-phoenix-service-nar" target="1.8" />
+      <module name="nifi-phoenix-services" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
