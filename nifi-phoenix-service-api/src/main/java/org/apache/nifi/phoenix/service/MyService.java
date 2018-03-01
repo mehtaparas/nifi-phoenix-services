@@ -20,11 +20,15 @@ import org.apache.nifi.annotation.documentation.CapabilityDescription;
 import org.apache.nifi.annotation.documentation.Tags;
 import org.apache.nifi.controller.ControllerService;
 import org.apache.nifi.processor.exception.ProcessException;
+import org.apache.nifi.dbcp.DBCPService;
 
-@Tags({"example"})
-@CapabilityDescription("Example Service API.")
-public interface MyService extends ControllerService {
+/**
+ * Definition for Database Connection Pooling Service.
+ *
+ */
 
-    public void execute()  throws ProcessException;
-
+@Tags({"phoenix", "jdbc", "database", "connection", "pooling", "store"})
+@CapabilityDescription("Provides Database Connection Pooling Service for Apache Phoenix. Connections can be asked from pool and returned after usage.")
+public interface PhoenixDBCPService extends DBCPService {
+    public String getConnectionURL();
 }
