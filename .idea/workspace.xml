@@ -17,14 +17,44 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="PhoenixConnectionPool.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PhoenixConnectionPool.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nifi-phoenix-service/src/main/java/org/apache/nifi/phoenix/service/PhoenixConnectionPool.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="278" column="0" lean-forward="false" selection-start-line="278" selection-start-column="0" selection-end-line="278" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
                 <element signature="e#0#14268#0" expanded="true" />
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SelectPhoenixQL.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/nifi-phoenix-service/src/main/java/org/apache/nifi/phoenix/processors/SelectPhoenixQL.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2024">
+              <caret line="164" column="0" lean-forward="true" selection-start-line="164" selection-start-column="0" selection-end-line="164" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#8835#8836#0" expanded="true" />
+                <element signature="e#8871#8872#0" expanded="true" />
+                <element signature="e#8961#8962#0" expanded="true" />
+                <element signature="e#8999#9000#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PhoenixJdbcCommon.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nifi-phoenix-service/src/main/java/org/apache/nifi/phoenix/util/PhoenixJdbcCommon.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="9156">
+              <caret line="436" column="25" lean-forward="false" selection-start-line="436" selection-start-column="25" selection-end-line="436" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#10333#10334#0" expanded="true" />
+                <element signature="e#10377#10378#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -35,7 +65,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="682">
               <caret line="60" column="6" lean-forward="false" selection-start-line="60" selection-start-column="6" selection-end-line="60" selection-end-column="6" />
-              <folding />
+              <folding>
+                <element signature="e#0#1797#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -72,18 +104,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AuthenticationFailedException.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nifi-phoenix-service/src/main/java/org/apache/nifi/phoenix/util/AuthenticationFailedException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-              <folding>
-                <element signature="e#220#221#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ValidationResources.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nifi-phoenix-service/src/main/java/org/apache/nifi/phoenix/util/ValidationResources.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -97,8 +117,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nifi-phoenix-service/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1071">
-              <caret line="51" column="21" lean-forward="false" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
+            <state relative-caret-position="472">
+              <caret line="74" column="21" lean-forward="false" selection-start-line="74" selection-start-column="21" selection-end-line="74" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -146,10 +166,12 @@
         <option value="$PROJECT_DIR$/nifi-phoenix-service/src/main/java/org/apache/nifi/phoenix/service/StandardMyService.java" />
         <option value="$PROJECT_DIR$/nifi-phoenix-service/src/main/java/org/apache/nifi/phoenix/util/ValidationResources.java" />
         <option value="$PROJECT_DIR$/nifi-phoenix-service/src/main/java/org/apache/nifi/phoenix/util/AuthenticationFailedException.java" />
-        <option value="$PROJECT_DIR$/nifi-phoenix-service/pom.xml" />
         <option value="$PROJECT_DIR$/nifi-phoenix-service/src/main/java/org/apache/nifi/phoenix/util/PhoenixConfigurator.java" />
         <option value="$PROJECT_DIR$/nifi-phoenix-service/src/main/java/org/apache/nifi/phoenix/service/PhoenixConnectionPool.java" />
         <option value="$PROJECT_DIR$/nifi-phoenix-service-api/pom.xml" />
+        <option value="$PROJECT_DIR$/nifi-phoenix-service/pom.xml" />
+        <option value="$PROJECT_DIR$/nifi-phoenix-service/src/main/java/org/apache/nifi/phoenix/util/PhoenixJdbcCommon.java" />
+        <option value="$PROJECT_DIR$/nifi-phoenix-service/src/main/java/org/apache/nifi/phoenix/processors/SelectPhoenixQL.java" />
       </list>
     </option>
   </component>
@@ -399,6 +421,52 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nifi-phoenix-services" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nifi-phoenix-services" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nifi-phoenix-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="apache" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nifi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="phoenix" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="processors" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -839,14 +907,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nifi-phoenix-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="51" column="21" lean-forward="false" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/nifi-phoenix-service/src/main/java/org/apache/nifi/phoenix/util/ValidationResources.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -869,7 +929,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="682">
           <caret line="60" column="6" lean-forward="false" selection-start-line="60" selection-start-column="6" selection-end-line="60" selection-end-column="6" />
-          <folding />
+          <folding>
+            <element signature="e#0#1797#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -893,11 +955,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/nifi-phoenix-service/src/main/java/org/apache/nifi/phoenix/service/PhoenixConnectionPool.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="278" column="0" lean-forward="false" selection-start-line="278" selection-start-column="0" selection-end-line="278" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#14268#0" expanded="true" />
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nifi-phoenix-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="74" column="21" lean-forward="false" selection-start-line="74" selection-start-column="21" selection-end-line="74" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nifi-phoenix-service/src/main/java/org/apache/nifi/phoenix/util/PhoenixJdbcCommon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9156">
+          <caret line="436" column="25" lean-forward="false" selection-start-line="436" selection-start-column="25" selection-end-line="436" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#10333#10334#0" expanded="true" />
+            <element signature="e#10377#10378#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nifi-phoenix-service/src/main/java/org/apache/nifi/phoenix/processors/SelectPhoenixQL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2024">
+          <caret line="164" column="0" lean-forward="true" selection-start-line="164" selection-start-column="0" selection-end-line="164" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#8835#8836#0" expanded="true" />
+            <element signature="e#8871#8872#0" expanded="true" />
+            <element signature="e#8961#8962#0" expanded="true" />
+            <element signature="e#8999#9000#0" expanded="true" />
           </folding>
         </state>
       </provider>
