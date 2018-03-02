@@ -1,0 +1,17 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+nifi-phoenix-service-api-nar
+
+
+From: 'Apache NiFi Project' (http://nifi.apache.org/)
+  - nifi-phoenix-service-api (http://nifi.apache.org/nifi-nar-bundles/nifi-phoenix-services/nifi-phoenix-service-api) org.apache.nifi:nifi-phoenix-service-api:jar:1.0-SNAPSHOT
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+  - nifi-standard-services-api-nar (http://nifi.apache.org/nifi-nar-bundles/nifi-standard-services/nifi-standard-services-api-nar) org.apache.nifi:nifi-standard-services-api-nar:nar:1.5.0
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+
+
+
+
