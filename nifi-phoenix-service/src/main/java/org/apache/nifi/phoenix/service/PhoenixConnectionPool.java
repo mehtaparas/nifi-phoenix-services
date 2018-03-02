@@ -54,7 +54,7 @@ import org.apache.nifi.hadoop.KerberosProperties;
 import org.apache.nifi.hadoop.SecurityUtil;
 import org.apache.nifi.logging.ComponentLog;
 import org.apache.nifi.phoenix.util.AuthenticationFailedException;
-import org.apache.nifi.util.hive.HiveConfigurator;
+import org.apache.nifi.phoenix.util.PhoenixConfigurator;
 import org.apache.nifi.phoenix.util.ValidationResources;
 
 
@@ -158,7 +158,7 @@ public class PhoenixConnectionPool extends AbstractControllerService implements 
 
     private volatile BasicDataSource dataSource;
 
-    private volatile HiveConfigurator hiveConfigurator = new HiveConfigurator();
+    private volatile PhoenixConfigurator phoenixConfigurator = new PhoenixConfigurator();
     private volatile UserGroupInformation ugi;
     private volatile File kerberosConfigFile = null;
     private volatile KerberosProperties kerberosProperties;
@@ -196,7 +196,7 @@ public class PhoenixConnectionPool extends AbstractControllerService implements 
             final String configFiles = validationContext.getProperty(HBASE_CONFIGURATION_RESOURCES).evaluateAttributeExpressions().getValue();
             final String principal = validationContext.getProperty(kerberosProperties.getKerberosPrincipal()).evaluateAttributeExpressions().getValue();
             final String keyTab = validationContext.getProperty(kerberosProperties.getKerberosKeytab()).evaluateAttributeExpressions().getValue();
-            problems.addAll(hiveConfigurator.validate(configFiles, principal, keyTab, validationResourceHolder, getLogger()));
+            problems.addAll(phoenixConfigurator.validate(configFiles, principal, keyTab, validationResourceHolder, getLogger()));
         }
 
         return problems;
@@ -213,25 +213,25 @@ public class PhoenixConnectionPool extends AbstractControllerService implements 
         ComponentLog log = getLogger();
 
         final String configFiles = context.getProperty(HBASE_CONFIGURATION_RESOURCES).evaluateAttributeExpressions().getValue();
-        final Configuration hiveConfig = hiveConfigurator.getConfigurationFromFiles(configFiles);
+        final Configuration hbaseConfig = phoenixConfigurator.getConfigurationFromFiles(configFiles);
         final String validationQuery = context.getProperty(VALIDATION_QUERY).evaluateAttributeExpressions().getValue();
 
-        // add any dynamic properties to the Hive configuration
+        // add any dynamic properties to the HBase configuration
         for (final Map.Entry<PropertyDescriptor, String> entry : context.getProperties().entrySet()) {
             final PropertyDescriptor descriptor = entry.getKey();
             if (descriptor.isDynamic()) {
-                hiveConfig.set(descriptor.getName(), context.getProperty(descriptor).evaluateAttributeExpressions().getValue());
+                hbaseConfig.set(descriptor.getName(), context.getProperty(descriptor).evaluateAttributeExpressions().getValue());
             }
         }
 
         final String drv = PhoenixDriver.class.getName();
-        if (SecurityUtil.isSecurityEnabled(hiveConfig)) {
+        if (SecurityUtil.isSecurityEnabled(hbaseConfig)) {
             final String principal = context.getProperty(kerberosProperties.getKerberosPrincipal()).evaluateAttributeExpressions().getValue();
             final String keyTab = context.getProperty(kerberosProperties.getKerberosKeytab()).evaluateAttributeExpressions().getValue();
 
-            log.info("Hive Security Enabled, logging in as principal {} with keytab {}", new Object[]{principal, keyTab});
+            log.info("HBase Security Enabled, logging in as principal {} with keytab {}", new Object[]{principal, keyTab});
             try {
-                ugi = hiveConfigurator.authenticate(hiveConfig, principal, keyTab);
+                ugi = phoenixConfigurator.authenticate(hbaseConfig, principal, keyTab);
             } catch (AuthenticationFailedException ae) {
                 log.error(ae.getMessage(), ae);
             }
@@ -275,7 +275,7 @@ public class PhoenixConnectionPool extends AbstractControllerService implements 
     }
 
 
-    @Override
+    // @Override
     public Connection getConnection() throws ProcessException {
         try {
             if (ugi != null) {
@@ -294,7 +294,7 @@ public class PhoenixConnectionPool extends AbstractControllerService implements 
                 return dataSource.getConnection();
             }
         } catch (SQLException | IOException | InterruptedException e) {
-            getLogger().error("Error getting Hive connection", e);
+            getLogger().error("Error getting Phoenix connection", e);
             throw new ProcessException(e);
         }
     }
