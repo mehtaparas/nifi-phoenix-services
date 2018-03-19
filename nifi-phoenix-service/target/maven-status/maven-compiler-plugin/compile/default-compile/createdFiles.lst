@@ -1,8 +1,10 @@
 org\apache\nifi\phoenix\processors\SelectPhoenixQL.class
+org\apache\nifi\phoenix\processors\UpsertPhoenixQL$1.class
 org\apache\nifi\phoenix\util\PhoenixConfigurator.class
 org\apache\nifi\phoenix\util\PhoenixJdbcCommon$AvroConversionOptions.class
 org\apache\nifi\phoenix\util\ValidationResources.class
 org\apache\nifi\phoenix\util\PhoenixJdbcCommon.class
+org\apache\nifi\phoenix\processors\UpsertPhoenixQL.class
 org\apache\nifi\phoenix\util\PhoenixJdbcCommon$AvroConversionOptions$Builder.class
 org\apache\nifi\phoenix\service\PhoenixConnectionPool.class
 org\apache\nifi\phoenix\util\PhoenixJdbcCommon$1.class

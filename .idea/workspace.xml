@@ -1,12 +1,412 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e9919db-b2a3-4038-8918-39e23aff8c85" name="Default" comment="" />
+    <list default="true" id="cbcbe0fe-0ede-4193-b754-c865e68112fc" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nifi-phoenix-service/src/main/java/org/apache/nifi/phoenix/processors/UpsertPhoenixQL.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-api-nar/target/classes/META-INF/bundled-dependencies/nifi-phoenix-service-api-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-api-nar/target/classes/META-INF/bundled-dependencies/nifi-phoenix-service-api-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-api-nar/target/nifi-phoenix-service-api-nar-1.0-SNAPSHOT.nar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-api-nar/target/nifi-phoenix-service-api-nar-1.0-SNAPSHOT.nar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-api/target/classes/org/apache/nifi/phoenix/service/PhoenixDBCPService.class" afterPath="$PROJECT_DIR$/nifi-phoenix-service-api/target/classes/org/apache/nifi/phoenix/service/PhoenixDBCPService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-api/target/nifi-phoenix-service-api-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-api/target/nifi-phoenix-service-api-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/ST4-4.0.7.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/ST4-4.0.7.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/activation-1.1.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/activation-1.1.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/annotations-1.3.2.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/annotations-1.3.2.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/antlr-3.5.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/antlr-3.5.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/antlr-runtime-3.5.2.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/antlr-runtime-3.5.2.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/aopalliance-1.0.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/aopalliance-1.0.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/apacheds-i18n-2.0.0-M15.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/apacheds-i18n-2.0.0-M15.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/apacheds-kerberos-codec-2.0.0-M15.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/apacheds-kerberos-codec-2.0.0-M15.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/api-asn1-api-1.0.0-M20.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/api-asn1-api-1.0.0-M20.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/api-util-1.0.0-M20.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/api-util-1.0.0-M20.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/asm-3.1.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/asm-3.1.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/asm-all-5.0.2.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/asm-all-5.0.2.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/avro-1.8.1.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/avro-1.8.1.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/bcpkix-jdk15on-1.55.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/bcpkix-jdk15on-1.55.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/bcprov-jdk15on-1.55.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/bcprov-jdk15on-1.55.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/commons-beanutils-1.7.0.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/commons-beanutils-1.7.0.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/commons-beanutils-core-1.8.0.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/commons-beanutils-core-1.8.0.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/commons-cli-1.3.1.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/commons-cli-1.3.1.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/commons-codec-1.11.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/commons-codec-1.11.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/commons-collections-3.2.1.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/commons-collections-3.2.1.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/commons-compress-1.15.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/commons-compress-1.15.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/commons-configuration-1.6.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/commons-configuration-1.6.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/commons-csv-1.0.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/commons-csv-1.0.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/commons-dbcp-1.4.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/commons-dbcp-1.4.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/commons-digester-1.8.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/commons-digester-1.8.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/commons-el-1.0.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/commons-el-1.0.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/commons-httpclient-3.1.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/commons-httpclient-3.1.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/commons-io-2.6.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/commons-io-2.6.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/commons-lang-2.6.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/commons-lang-2.6.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/commons-lang3-3.7.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/commons-lang3-3.7.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/commons-logging-1.2.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/commons-logging-1.2.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/commons-math-2.2.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/commons-math-2.2.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/commons-math3-3.1.1.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/commons-math3-3.1.1.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/commons-net-3.6.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/commons-net-3.6.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/commons-pool-1.5.4.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/commons-pool-1.5.4.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/curator-client-2.7.1.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/curator-client-2.7.1.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/curator-framework-2.11.0.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/curator-framework-2.11.0.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/curator-recipes-2.11.0.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/curator-recipes-2.11.0.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/disruptor-3.3.0.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/disruptor-3.3.0.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/fastutil-6.5.6.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/fastutil-6.5.6.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/findbugs-annotations-1.3.9-1.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/findbugs-annotations-1.3.9-1.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/gson-2.7.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/gson-2.7.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/guava-18.0.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/guava-18.0.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/guice-3.0.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/guice-3.0.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/guice-assistedinject-3.0.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/guice-assistedinject-3.0.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/hadoop-annotations-2.7.3.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/hadoop-annotations-2.7.3.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/hadoop-auth-2.7.3.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/hadoop-auth-2.7.3.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/hadoop-client-2.7.3.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/hadoop-client-2.7.3.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/hadoop-common-2.7.3.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/hadoop-common-2.7.3.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/hadoop-hdfs-2.7.3.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/hadoop-hdfs-2.7.3.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/hadoop-mapreduce-client-app-2.7.3.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/hadoop-mapreduce-client-app-2.7.3.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/hadoop-mapreduce-client-common-2.7.3.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/hadoop-mapreduce-client-common-2.7.3.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/hadoop-mapreduce-client-core-2.7.3.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/hadoop-mapreduce-client-core-2.7.3.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/hadoop-mapreduce-client-jobclient-2.7.3.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/hadoop-mapreduce-client-jobclient-2.7.3.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/hadoop-mapreduce-client-shuffle-2.7.3.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/hadoop-mapreduce-client-shuffle-2.7.3.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/hadoop-yarn-api-2.7.3.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/hadoop-yarn-api-2.7.3.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/hadoop-yarn-client-2.7.3.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/hadoop-yarn-client-2.7.3.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/hadoop-yarn-common-2.7.3.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/hadoop-yarn-common-2.7.3.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/hadoop-yarn-server-common-2.7.3.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/hadoop-yarn-server-common-2.7.3.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/hbase-annotations-1.1.2.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/hbase-annotations-1.1.2.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/hbase-client-1.1.2.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/hbase-client-1.1.2.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/hbase-common-1.1.2.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/hbase-common-1.1.2.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/hbase-common-1.1.3-tests.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/hbase-common-1.1.3-tests.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/hbase-hadoop-compat-1.1.3.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/hbase-hadoop-compat-1.1.3.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/hbase-hadoop2-compat-1.1.3.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/hbase-hadoop2-compat-1.1.3.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/hbase-prefix-tree-1.1.3.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/hbase-prefix-tree-1.1.3.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/hbase-procedure-1.1.3.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/hbase-procedure-1.1.3.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/hbase-protocol-1.1.2.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/hbase-protocol-1.1.2.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/hbase-server-1.1.3.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/hbase-server-1.1.3.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/htrace-core-3.1.0-incubating.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/htrace-core-3.1.0-incubating.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/httpclient-4.5.3.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/httpclient-4.5.3.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/httpcore-4.4.4.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/httpcore-4.4.4.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/jackson-annotations-2.9.0.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/jackson-annotations-2.9.0.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/jackson-core-2.9.1.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/jackson-core-2.9.1.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/jackson-core-asl-1.9.2.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/jackson-core-asl-1.9.2.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/jackson-databind-2.9.1.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/jackson-databind-2.9.1.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/jackson-jaxrs-1.9.13.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/jackson-jaxrs-1.9.13.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/jackson-mapper-asl-1.9.13.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/jackson-mapper-asl-1.9.13.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/jackson-xc-1.9.13.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/jackson-xc-1.9.13.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/jamon-runtime-2.3.1.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/jamon-runtime-2.3.1.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/jasper-compiler-5.5.23.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/jasper-compiler-5.5.23.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/jasper-runtime-5.5.23.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/jasper-runtime-5.5.23.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/javax.inject-1.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/javax.inject-1.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/jaxb-api-2.2.2.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/jaxb-api-2.2.2.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/jcodings-1.0.8.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/jcodings-1.0.8.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/jersey-client-1.9.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/jersey-client-1.9.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/jersey-core-1.9.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/jersey-core-1.9.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/jersey-server-1.9.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/jersey-server-1.9.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/jetty-6.1.26.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/jetty-6.1.26.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/jetty-sslengine-6.1.26.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/jetty-sslengine-6.1.26.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/jetty-util-6.1.26.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/jetty-util-6.1.26.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/jline-2.11.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/jline-2.11.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/joda-time-2.8.2.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/joda-time-2.8.2.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/joni-2.1.2.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/joni-2.1.2.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/jsp-2.1-6.1.14.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/jsp-2.1-6.1.14.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/jsp-api-2.1-6.1.14.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/jsp-api-2.1-6.1.14.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/jsp-api-2.1.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/jsp-api-2.1.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/jsr305-2.0.1.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/jsr305-2.0.1.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/leveldbjni-all-1.8.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/leveldbjni-all-1.8.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/libthrift-0.9.0.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/libthrift-0.9.0.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/log4j-1.2.17.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/log4j-1.2.17.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/metrics-core-2.2.0.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/metrics-core-2.2.0.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/metrics-core-3.1.0.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/metrics-core-3.1.0.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/netty-3.6.2.Final.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/netty-3.6.2.Final.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/netty-all-4.0.23.Final.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/netty-all-4.0.23.Final.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/nifi-avro-record-utils-1.5.0.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/nifi-avro-record-utils-1.5.0.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/nifi-hadoop-utils-1.5.0.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/nifi-hadoop-utils-1.5.0.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/nifi-phoenix-service-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/nifi-phoenix-service-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/nifi-phoenix-service-api-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/nifi-phoenix-service-api-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/nifi-processor-utils-1.5.0.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/nifi-processor-utils-1.5.0.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/nifi-security-utils-1.5.0.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/nifi-security-utils-1.5.0.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/nifi-standard-record-utils-1.5.0.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/nifi-standard-record-utils-1.5.0.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/nifi-utils-1.5.0.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/nifi-utils-1.5.0.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/objenesis-2.1.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/objenesis-2.1.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/paranamer-2.7.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/paranamer-2.7.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/phoenix-core-4.7.0-HBase-1.1.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/phoenix-core-4.7.0-HBase-1.1.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/protobuf-java-2.5.0.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/protobuf-java-2.5.0.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/servlet-api-2.5-6.1.14.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/servlet-api-2.5-6.1.14.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/servlet-api-2.5.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/servlet-api-2.5.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/slf4j-log4j12-1.7.25.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/slf4j-log4j12-1.7.25.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/snappy-0.3.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/snappy-0.3.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/snappy-java-1.1.1.3.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/snappy-java-1.1.1.3.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/sqlline-1.1.8.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/sqlline-1.1.8.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/stax-api-1.0-2.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/stax-api-1.0-2.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/tephra-api-0.7.0.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/tephra-api-0.7.0.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/tephra-core-0.7.0.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/tephra-core-0.7.0.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/tephra-hbase-compat-1.1-0.7.0.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/tephra-hbase-compat-1.1-0.7.0.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/twill-api-0.6.0-incubating.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/twill-api-0.6.0-incubating.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/twill-common-0.6.0-incubating.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/twill-common-0.6.0-incubating.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/twill-core-0.6.0-incubating.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/twill-core-0.6.0-incubating.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/twill-discovery-api-0.6.0-incubating.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/twill-discovery-api-0.6.0-incubating.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/twill-discovery-core-0.6.0-incubating.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/twill-discovery-core-0.6.0-incubating.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/twill-zookeeper-0.6.0-incubating.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/twill-zookeeper-0.6.0-incubating.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/xercesImpl-2.9.1.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/xercesImpl-2.9.1.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/xml-apis-1.3.04.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/xml-apis-1.3.04.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/xmlenc-0.52.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/xmlenc-0.52.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/xz-1.6.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/xz-1.6.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/zookeeper-3.4.6.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/bundled-dependencies/zookeeper-3.4.6.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/nifi-phoenix-service-nar-1.0-SNAPSHOT.nar" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/nifi-phoenix-service-nar-1.0-SNAPSHOT.nar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service/target/classes/org/apache/nifi/phoenix/processors/SelectPhoenixQL.class" afterPath="$PROJECT_DIR$/nifi-phoenix-service/target/classes/org/apache/nifi/phoenix/processors/SelectPhoenixQL.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service/target/classes/org/apache/nifi/phoenix/service/PhoenixConnectionPool.class" afterPath="$PROJECT_DIR$/nifi-phoenix-service/target/classes/org/apache/nifi/phoenix/service/PhoenixConnectionPool.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service/target/classes/org/apache/nifi/phoenix/util/AuthenticationFailedException.class" afterPath="$PROJECT_DIR$/nifi-phoenix-service/target/classes/org/apache/nifi/phoenix/util/AuthenticationFailedException.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service/target/classes/org/apache/nifi/phoenix/util/PhoenixConfigurator.class" afterPath="$PROJECT_DIR$/nifi-phoenix-service/target/classes/org/apache/nifi/phoenix/util/PhoenixConfigurator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service/target/classes/org/apache/nifi/phoenix/util/PhoenixJdbcCommon$1.class" afterPath="$PROJECT_DIR$/nifi-phoenix-service/target/classes/org/apache/nifi/phoenix/util/PhoenixJdbcCommon$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service/target/classes/org/apache/nifi/phoenix/util/PhoenixJdbcCommon$AvroConversionOptions$Builder.class" afterPath="$PROJECT_DIR$/nifi-phoenix-service/target/classes/org/apache/nifi/phoenix/util/PhoenixJdbcCommon$AvroConversionOptions$Builder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service/target/classes/org/apache/nifi/phoenix/util/PhoenixJdbcCommon$AvroConversionOptions.class" afterPath="$PROJECT_DIR$/nifi-phoenix-service/target/classes/org/apache/nifi/phoenix/util/PhoenixJdbcCommon$AvroConversionOptions.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service/target/classes/org/apache/nifi/phoenix/util/PhoenixJdbcCommon$ResultSetRowCallback.class" afterPath="$PROJECT_DIR$/nifi-phoenix-service/target/classes/org/apache/nifi/phoenix/util/PhoenixJdbcCommon$ResultSetRowCallback.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service/target/classes/org/apache/nifi/phoenix/util/PhoenixJdbcCommon.class" afterPath="$PROJECT_DIR$/nifi-phoenix-service/target/classes/org/apache/nifi/phoenix/util/PhoenixJdbcCommon.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service/target/classes/org/apache/nifi/phoenix/util/ValidationResources.class" afterPath="$PROJECT_DIR$/nifi-phoenix-service/target/classes/org/apache/nifi/phoenix/util/ValidationResources.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service/target/nifi-phoenix-service-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/nifi-phoenix-service/target/nifi-phoenix-service-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__asm_asm_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__asm_asm_3_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__co_cask_tephra_tephra_api_0_7_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__co_cask_tephra_tephra_api_0_7_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__co_cask_tephra_tephra_core_0_7_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__co_cask_tephra_tephra_core_0_7_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__co_cask_tephra_tephra_hbase_compat_1_1_0_7_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__co_cask_tephra_tephra_hbase_compat_1_1_0_7_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_stephenc_findbugs_findbugs_annotations_1_3_9_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_stephenc_findbugs_findbugs_annotations_1_3_9_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_2_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_2_0_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_7.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_7.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_18_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_18_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_extensions_guice_assistedinject_3_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_extensions_guice_assistedinject_3_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_guice_3_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_guice_3_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_2_5_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_2_5_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_0_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_lmax_disruptor_3_3_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_lmax_disruptor_3_3_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_client_1_9.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_client_1_9.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_core_1_9.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_core_1_9.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_server_1_9.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_server_1_9.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_paranamer_paranamer_2_7.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_paranamer_paranamer_2_7.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_yammer_metrics_metrics_core_2_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_yammer_metrics_metrics_core_2_2_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_7_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_7_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_core_1_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_core_1_8_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_cli_commons_cli_1_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_cli_commons_cli_1_3_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_configuration_commons_configuration_1_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_configuration_commons_configuration_1_6.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_dbcp_commons_dbcp_1_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_dbcp_commons_dbcp_1_4.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_digester_commons_digester_1_8.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_digester_commons_digester_1_8.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_el_commons_el_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_el_commons_el_1_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_httpclient_commons_httpclient_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_httpclient_commons_httpclient_3_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_6.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_net_commons_net_3_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_net_commons_net_3_6.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_pool_commons_pool_1_5_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_pool_commons_pool_1_5_4.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_metrics_metrics_core_3_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_metrics_metrics_core_3_1_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_3_6_2_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_3_6_2_Final.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_0_23_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_0_23_Final.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__it_unimi_dsi_fastutil_6_5_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__it_unimi_dsi_fastutil_6_5_6.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_jsp_api_2_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_jsp_api_2_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_2_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_2_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_stream_stax_api_1_0_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_stream_stax_api_1_0_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jline_jline_2_11.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jline_jline_2_11.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_8_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_8_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_asm_1_0_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_asm_1_0_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_1_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_findbugs_annotations_1_3_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_findbugs_annotations_1_3_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_ST4_4_0_7.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_ST4_4_0_7.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr_3_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr_3_5.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr_runtime_3_5_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr_runtime_3_5_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_avro_avro_1_8_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_avro_avro_1_8_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_15.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_15.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_csv_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_csv_1_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_7.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_7.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math3_3_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math3_3_1_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math_2_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math_2_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_client_2_7_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_client_2_7_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_framework_2_11_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_framework_2_11_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_recipes_2_11_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_recipes_2_11_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_directory_api_api_asn1_api_1_0_0_M20.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_directory_api_api_asn1_api_1_0_0_M20.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_directory_api_api_util_1_0_0_M20.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_directory_api_api_util_1_0_0_M20.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_directory_server_apacheds_i18n_2_0_0_M15.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_directory_server_apacheds_i18n_2_0_0_M15.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_directory_server_apacheds_kerberos_codec_2_0_0_M15.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_directory_server_apacheds_kerberos_codec_2_0_0_M15.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_annotations_2_7_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_annotations_2_7_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_auth_2_7_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_auth_2_7_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_client_2_7_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_client_2_7_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_common_2_7_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_common_2_7_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_hdfs_2_7_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_hdfs_2_7_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_app_2_7_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_app_2_7_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_common_2_7_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_common_2_7_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_core_2_7_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_core_2_7_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_jobclient_2_7_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_jobclient_2_7_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_shuffle_2_7_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_shuffle_2_7_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_api_2_7_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_api_2_7_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_client_2_7_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_client_2_7_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_common_2_7_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_common_2_7_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_server_common_2_7_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_server_common_2_7_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hbase_hbase_annotations_1_1_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hbase_hbase_annotations_1_1_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hbase_hbase_client_1_1_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hbase_hbase_client_1_1_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hbase_hbase_common_1_1_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hbase_hbase_common_1_1_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hbase_hbase_common_tests_1_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hbase_hbase_common_tests_1_1_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hbase_hbase_hadoop2_compat_1_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hbase_hbase_hadoop2_compat_1_1_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hbase_hbase_hadoop_compat_1_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hbase_hbase_hadoop_compat_1_1_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hbase_hbase_prefix_tree_1_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hbase_hbase_prefix_tree_1_1_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hbase_hbase_procedure_1_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hbase_hbase_procedure_1_1_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hbase_hbase_protocol_1_1_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hbase_hbase_protocol_1_1_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hbase_hbase_server_1_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hbase_hbase_server_1_1_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_htrace_htrace_core_3_1_0_incubating.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_htrace_htrace_core_3_1_0_incubating.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_4.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_nifi_nifi_api_1_5_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_nifi_nifi_api_1_5_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_nifi_nifi_avro_record_utils_1_5_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_nifi_nifi_avro_record_utils_1_5_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_nifi_nifi_data_provenance_utils_1_5_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_nifi_nifi_data_provenance_utils_1_5_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_nifi_nifi_dbcp_service_api_1_5_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_nifi_nifi_dbcp_service_api_1_5_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_nifi_nifi_distributed_cache_client_service_api_1_5_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_nifi_nifi_distributed_cache_client_service_api_1_5_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_nifi_nifi_expression_language_1_5_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_nifi_nifi_expression_language_1_5_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_nifi_nifi_framework_api_1_5_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_nifi_nifi_framework_api_1_5_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_nifi_nifi_hadoop_utils_1_5_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_nifi_nifi_hadoop_utils_1_5_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_nifi_nifi_hbase_client_service_api_1_5_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_nifi_nifi_hbase_client_service_api_1_5_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_nifi_nifi_http_context_map_api_1_5_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_nifi_nifi_http_context_map_api_1_5_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_nifi_nifi_load_distribution_service_api_1_5_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_nifi_nifi_load_distribution_service_api_1_5_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_nifi_nifi_lookup_service_api_1_5_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_nifi_nifi_lookup_service_api_1_5_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_nifi_nifi_mock_1_5_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_nifi_nifi_mock_1_5_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_nifi_nifi_mongodb_client_service_api_1_5_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_nifi_nifi_mongodb_client_service_api_1_5_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_nifi_nifi_processor_utils_1_5_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_nifi_nifi_processor_utils_1_5_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_nifi_nifi_properties_1_5_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_nifi_nifi_properties_1_5_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_nifi_nifi_properties_loader_1_5_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_nifi_nifi_properties_loader_1_5_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_nifi_nifi_record_1_5_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_nifi_nifi_record_1_5_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_nifi_nifi_record_serialization_service_api_1_5_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_nifi_nifi_record_serialization_service_api_1_5_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_nifi_nifi_schema_registry_service_api_1_5_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_nifi_nifi_schema_registry_service_api_1_5_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_nifi_nifi_security_utils_1_5_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_nifi_nifi_security_utils_1_5_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_nifi_nifi_ssl_context_service_api_1_5_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_nifi_nifi_ssl_context_service_api_1_5_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_nifi_nifi_standard_record_utils_1_5_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_nifi_nifi_standard_record_utils_1_5_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_nifi_nifi_utils_1_5_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_nifi_nifi_utils_1_5_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_phoenix_phoenix_core_4_7_0_HBase_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_phoenix_phoenix_core_4_7_0_HBase_1_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_thrift_libthrift_0_9_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_thrift_libthrift_0_9_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_twill_twill_api_0_6_0_incubating.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_twill_twill_api_0_6_0_incubating.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_twill_twill_common_0_6_0_incubating.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_twill_twill_common_0_6_0_incubating.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_twill_twill_core_0_6_0_incubating.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_twill_twill_core_0_6_0_incubating.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_twill_twill_discovery_api_0_6_0_incubating.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_twill_twill_discovery_api_0_6_0_incubating.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_twill_twill_discovery_core_0_6_0_incubating.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_twill_twill_discovery_core_0_6_0_incubating.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_twill_twill_zookeeper_0_6_0_incubating.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_twill_twill_zookeeper_0_6_0_incubating.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_6.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_55.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_55.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_55.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_55.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_all_2_4_13.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_all_2_4_13.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_jaxrs_1_9_13.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_jaxrs_1_9_13.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_xc_1_9_13.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_xc_1_9_13.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_fusesource_leveldbjni_leveldbjni_all_1_8.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_fusesource_leveldbjni_leveldbjni_all_1_8.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_iq80_snappy_snappy_0_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_iq80_snappy_snappy_0_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jamon_jamon_runtime_2_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jamon_jamon_runtime_2_3_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jruby_jcodings_jcodings_1_0_8.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jruby_jcodings_jcodings_1_0_8.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jruby_joni_joni_2_1_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jruby_joni_joni_2_1_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_1_10_19.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_1_10_19.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongo_java_driver_3_2_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongo_java_driver_3_2_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_jetty_6_1_26.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_jetty_6_1_26.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_jetty_sslengine_6_1_26.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_jetty_sslengine_6_1_26.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_jetty_util_6_1_26.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_jetty_util_6_1_26.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_jsp_2_1_6_1_14.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_jsp_2_1_6_1_14.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_jsp_api_2_1_6_1_14.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_jsp_api_2_1_6_1_14.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_servlet_api_2_5_6_1_14.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_servlet_api_2_5_6_1_14.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_all_5_0_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_all_5_0_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_25.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_25.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_simple_1_7_25.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_simple_1_7_25.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_tukaani_xz_1_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_tukaani_xz_1_6.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_1_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_1_1_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__sqlline_sqlline_1_1_8.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__sqlline_sqlline_1_1_8.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__tomcat_jasper_compiler_5_5_23.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tomcat_jasper_compiler_5_5_23.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__tomcat_jasper_runtime_5_5_23.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tomcat_jasper_runtime_5_5_23.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xerces_xercesImpl_2_9_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xerces_xercesImpl_2_9_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_3_04.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_3_04.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xmlenc_xmlenc_0_52.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xmlenc_xmlenc_0_52.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-api-nar/nifi-phoenix-service-api-nar.iml" afterPath="$PROJECT_DIR$/nifi-phoenix-service-api-nar/nifi-phoenix-service-api-nar.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-api-nar/pom.xml" afterPath="$PROJECT_DIR$/nifi-phoenix-service-api-nar/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-api-nar/target/.plxarc" afterPath="$PROJECT_DIR$/nifi-phoenix-service-api-nar/target/.plxarc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-api-nar/target/classes/META-INF/DEPENDENCIES" afterPath="$PROJECT_DIR$/nifi-phoenix-service-api-nar/target/classes/META-INF/DEPENDENCIES" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-api-nar/target/classes/META-INF/LICENSE" afterPath="$PROJECT_DIR$/nifi-phoenix-service-api-nar/target/classes/META-INF/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-api-nar/target/classes/META-INF/NOTICE" afterPath="$PROJECT_DIR$/nifi-phoenix-service-api-nar/target/classes/META-INF/NOTICE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-api-nar/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/nifi-phoenix-service-api-nar/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-api-nar/target/maven-shared-archive-resources/META-INF/DEPENDENCIES" afterPath="$PROJECT_DIR$/nifi-phoenix-service-api-nar/target/maven-shared-archive-resources/META-INF/DEPENDENCIES" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-api-nar/target/maven-shared-archive-resources/META-INF/LICENSE" afterPath="$PROJECT_DIR$/nifi-phoenix-service-api-nar/target/maven-shared-archive-resources/META-INF/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-api-nar/target/maven-shared-archive-resources/META-INF/NOTICE" afterPath="$PROJECT_DIR$/nifi-phoenix-service-api-nar/target/maven-shared-archive-resources/META-INF/NOTICE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-api-nar/target/test-classes/META-INF/DEPENDENCIES" afterPath="$PROJECT_DIR$/nifi-phoenix-service-api-nar/target/test-classes/META-INF/DEPENDENCIES" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-api-nar/target/test-classes/META-INF/LICENSE" afterPath="$PROJECT_DIR$/nifi-phoenix-service-api-nar/target/test-classes/META-INF/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-api-nar/target/test-classes/META-INF/NOTICE" afterPath="$PROJECT_DIR$/nifi-phoenix-service-api-nar/target/test-classes/META-INF/NOTICE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-api/nifi-phoenix-service-api.iml" afterPath="$PROJECT_DIR$/nifi-phoenix-service-api/nifi-phoenix-service-api.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-api/pom.xml" afterPath="$PROJECT_DIR$/nifi-phoenix-service-api/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-api/src/main/java/org/apache/nifi/phoenix/service/PhoenixDBCPService.java" afterPath="$PROJECT_DIR$/nifi-phoenix-service-api/src/main/java/org/apache/nifi/phoenix/service/PhoenixDBCPService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-api/target/.plxarc" afterPath="$PROJECT_DIR$/nifi-phoenix-service-api/target/.plxarc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-api/target/classes/META-INF/DEPENDENCIES" afterPath="$PROJECT_DIR$/nifi-phoenix-service-api/target/classes/META-INF/DEPENDENCIES" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-api/target/classes/META-INF/LICENSE" afterPath="$PROJECT_DIR$/nifi-phoenix-service-api/target/classes/META-INF/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-api/target/classes/META-INF/NOTICE" afterPath="$PROJECT_DIR$/nifi-phoenix-service-api/target/classes/META-INF/NOTICE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-api/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/nifi-phoenix-service-api/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-api/target/maven-shared-archive-resources/META-INF/DEPENDENCIES" afterPath="$PROJECT_DIR$/nifi-phoenix-service-api/target/maven-shared-archive-resources/META-INF/DEPENDENCIES" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-api/target/maven-shared-archive-resources/META-INF/LICENSE" afterPath="$PROJECT_DIR$/nifi-phoenix-service-api/target/maven-shared-archive-resources/META-INF/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-api/target/maven-shared-archive-resources/META-INF/NOTICE" afterPath="$PROJECT_DIR$/nifi-phoenix-service-api/target/maven-shared-archive-resources/META-INF/NOTICE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/nifi-phoenix-service-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/nifi-phoenix-service-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-api/target/test-classes/META-INF/DEPENDENCIES" afterPath="$PROJECT_DIR$/nifi-phoenix-service-api/target/test-classes/META-INF/DEPENDENCIES" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-api/target/test-classes/META-INF/LICENSE" afterPath="$PROJECT_DIR$/nifi-phoenix-service-api/target/test-classes/META-INF/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-api/target/test-classes/META-INF/NOTICE" afterPath="$PROJECT_DIR$/nifi-phoenix-service-api/target/test-classes/META-INF/NOTICE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/nifi-phoenix-service-nar.iml" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/nifi-phoenix-service-nar.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/pom.xml" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/.plxarc" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/.plxarc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/DEPENDENCIES" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/DEPENDENCIES" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/LICENSE" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/NOTICE" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/classes/META-INF/NOTICE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/maven-shared-archive-resources/META-INF/DEPENDENCIES" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/maven-shared-archive-resources/META-INF/DEPENDENCIES" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/maven-shared-archive-resources/META-INF/LICENSE" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/maven-shared-archive-resources/META-INF/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/maven-shared-archive-resources/META-INF/NOTICE" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/maven-shared-archive-resources/META-INF/NOTICE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/test-classes/META-INF/DEPENDENCIES" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/test-classes/META-INF/DEPENDENCIES" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/test-classes/META-INF/LICENSE" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/test-classes/META-INF/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/test-classes/META-INF/NOTICE" afterPath="$PROJECT_DIR$/nifi-phoenix-service-nar/target/test-classes/META-INF/NOTICE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service/nifi-phoenix-service.iml" afterPath="$PROJECT_DIR$/nifi-phoenix-service/nifi-phoenix-service.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service/pom.xml" afterPath="$PROJECT_DIR$/nifi-phoenix-service/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service/src/main/java/org/apache/nifi/phoenix/processors/SelectPhoenixQL.java" afterPath="$PROJECT_DIR$/nifi-phoenix-service/src/main/java/org/apache/nifi/phoenix/processors/SelectPhoenixQL.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service/src/main/java/org/apache/nifi/phoenix/service/PhoenixConnectionPool.java" afterPath="$PROJECT_DIR$/nifi-phoenix-service/src/main/java/org/apache/nifi/phoenix/service/PhoenixConnectionPool.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service/src/main/java/org/apache/nifi/phoenix/util/AuthenticationFailedException.java" afterPath="$PROJECT_DIR$/nifi-phoenix-service/src/main/java/org/apache/nifi/phoenix/util/AuthenticationFailedException.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service/src/main/java/org/apache/nifi/phoenix/util/PhoenixConfigurator.java" afterPath="$PROJECT_DIR$/nifi-phoenix-service/src/main/java/org/apache/nifi/phoenix/util/PhoenixConfigurator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service/src/main/java/org/apache/nifi/phoenix/util/PhoenixJdbcCommon.java" afterPath="$PROJECT_DIR$/nifi-phoenix-service/src/main/java/org/apache/nifi/phoenix/util/PhoenixJdbcCommon.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service/src/main/java/org/apache/nifi/phoenix/util/ValidationResources.java" afterPath="$PROJECT_DIR$/nifi-phoenix-service/src/main/java/org/apache/nifi/phoenix/util/ValidationResources.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service/src/main/resources/META-INF/services/org.apache.nifi.controller.ControllerService" afterPath="$PROJECT_DIR$/nifi-phoenix-service/src/main/resources/META-INF/services/org.apache.nifi.controller.ControllerService" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service/target/.plxarc" afterPath="$PROJECT_DIR$/nifi-phoenix-service/target/.plxarc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service/target/classes/META-INF/DEPENDENCIES" afterPath="$PROJECT_DIR$/nifi-phoenix-service/target/classes/META-INF/DEPENDENCIES" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service/target/classes/META-INF/LICENSE" afterPath="$PROJECT_DIR$/nifi-phoenix-service/target/classes/META-INF/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service/target/classes/META-INF/NOTICE" afterPath="$PROJECT_DIR$/nifi-phoenix-service/target/classes/META-INF/NOTICE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service/target/classes/META-INF/services/org.apache.nifi.controller.ControllerService" afterPath="$PROJECT_DIR$/nifi-phoenix-service/target/classes/META-INF/services/org.apache.nifi.controller.ControllerService" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/nifi-phoenix-service/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service/target/maven-shared-archive-resources/META-INF/DEPENDENCIES" afterPath="$PROJECT_DIR$/nifi-phoenix-service/target/maven-shared-archive-resources/META-INF/DEPENDENCIES" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service/target/maven-shared-archive-resources/META-INF/LICENSE" afterPath="$PROJECT_DIR$/nifi-phoenix-service/target/maven-shared-archive-resources/META-INF/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service/target/maven-shared-archive-resources/META-INF/NOTICE" afterPath="$PROJECT_DIR$/nifi-phoenix-service/target/maven-shared-archive-resources/META-INF/NOTICE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/nifi-phoenix-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/nifi-phoenix-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service/target/test-classes/META-INF/DEPENDENCIES" afterPath="$PROJECT_DIR$/nifi-phoenix-service/target/test-classes/META-INF/DEPENDENCIES" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service/target/test-classes/META-INF/LICENSE" afterPath="$PROJECT_DIR$/nifi-phoenix-service/target/test-classes/META-INF/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-service/target/test-classes/META-INF/NOTICE" afterPath="$PROJECT_DIR$/nifi-phoenix-service/target/test-classes/META-INF/NOTICE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nifi-phoenix-services.iml" afterPath="$PROJECT_DIR$/nifi-phoenix-services.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/.plxarc" afterPath="$PROJECT_DIR$/target/.plxarc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-shared-archive-resources/META-INF/DEPENDENCIES" afterPath="$PROJECT_DIR$/target/maven-shared-archive-resources/META-INF/DEPENDENCIES" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-shared-archive-resources/META-INF/LICENSE" afterPath="$PROJECT_DIR$/target/maven-shared-archive-resources/META-INF/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-shared-archive-resources/META-INF/NOTICE" afterPath="$PROJECT_DIR$/target/maven-shared-archive-resources/META-INF/NOTICE" />
+    </list>
+    <ignored path="$PROJECT_DIR$/nifi-phoenix-service-nar/target/" />
     <ignored path="$PROJECT_DIR$/nifi-phoenix-service/target/" />
     <ignored path="$PROJECT_DIR$/nifi-phoenix-service-api-nar/target/" />
     <ignored path="$PROJECT_DIR$/nifi-phoenix-service-api/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$PROJECT_DIR$/nifi-phoenix-service-nar/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,118 +416,27 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="PhoenixConnectionPool.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/nifi-phoenix-service/src/main/java/org/apache/nifi/phoenix/service/PhoenixConnectionPool.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4080">
-              <caret line="73" column="13" lean-forward="false" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#14268#0" expanded="true" />
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf>
       <file leaf-file-name="SelectPhoenixQL.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nifi-phoenix-service/src/main/java/org/apache/nifi/phoenix/processors/SelectPhoenixQL.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2024">
-              <caret line="164" column="0" lean-forward="false" selection-start-line="164" selection-start-column="0" selection-end-line="164" selection-end-column="0" />
+            <state relative-caret-position="293">
+              <caret line="83" column="13" lean-forward="false" selection-start-line="83" selection-start-column="13" selection-end-line="83" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UpsertPhoenixQL.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/nifi-phoenix-service/src/main/java/org/apache/nifi/phoenix/processors/UpsertPhoenixQL.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3528">
+              <caret line="168" column="1" lean-forward="false" selection-start-line="168" selection-start-column="1" selection-end-line="168" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#8835#8836#0" expanded="true" />
-                <element signature="e#8871#8872#0" expanded="true" />
-                <element signature="e#8961#8962#0" expanded="true" />
-                <element signature="e#8999#9000#0" expanded="true" />
+                <element signature="e#2606#2614#0" expanded="true" />
+                <element signature="e#6864#6872#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PhoenixJdbcCommon.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nifi-phoenix-service/src/main/java/org/apache/nifi/phoenix/util/PhoenixJdbcCommon.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9156">
-              <caret line="436" column="25" lean-forward="false" selection-start-line="436" selection-start-column="25" selection-end-line="436" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#10333#10334#0" expanded="true" />
-                <element signature="e#10377#10378#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PhoenixConfigurator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nifi-phoenix-service/src/main/java/org/apache/nifi/phoenix/util/PhoenixConfigurator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nifi-phoenix-service-nar/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-197">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nifi-phoenix-service-api-nar/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-231">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nifi-phoenix-service-api/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="661">
-              <caret line="37" column="21" lean-forward="false" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nifi-phoenix-service/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="559">
-              <caret line="85" column="20" lean-forward="false" selection-start-line="85" selection-start-column="20" selection-end-line="85" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="nifi-phoenix-service-api.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nifi-phoenix-service-api/nifi-phoenix-service-api.iml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="16" column="2" lean-forward="false" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -141,12 +450,6 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>HiveDriver</find>
-      <find>hive</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -158,24 +461,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/nifi-phoenix-service-api/src/main/java/org/apache/nifi/phoenix/service/MyService.java" />
-        <option value="$PROJECT_DIR$/nifi-phoenix-service/src/main/java/org/apache/nifi/phoenix/service/StandardMyService.java" />
-        <option value="$PROJECT_DIR$/nifi-phoenix-service/src/main/java/org/apache/nifi/phoenix/util/ValidationResources.java" />
-        <option value="$PROJECT_DIR$/nifi-phoenix-service/src/main/java/org/apache/nifi/phoenix/util/AuthenticationFailedException.java" />
-        <option value="$PROJECT_DIR$/nifi-phoenix-service/src/main/java/org/apache/nifi/phoenix/util/PhoenixConfigurator.java" />
-        <option value="$PROJECT_DIR$/nifi-phoenix-service/src/main/java/org/apache/nifi/phoenix/service/PhoenixConnectionPool.java" />
-        <option value="$PROJECT_DIR$/nifi-phoenix-service-api/pom.xml" />
-        <option value="$PROJECT_DIR$/nifi-phoenix-service/src/main/java/org/apache/nifi/phoenix/util/PhoenixJdbcCommon.java" />
-        <option value="$PROJECT_DIR$/nifi-phoenix-service/src/main/java/org/apache/nifi/phoenix/processors/SelectPhoenixQL.java" />
-        <option value="$PROJECT_DIR$/nifi-phoenix-service/pom.xml" />
+        <option value="$PROJECT_DIR$/nifi-phoenix-service/src/main/java/org/apache/nifi/phoenix/processors/UpsertPhoenixQL.java" />
       </list>
-    </option>
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectFrameBounds">
@@ -200,7 +487,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -224,112 +510,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="nifi-phoenix-service-nar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nifi-phoenix-services" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nifi-phoenix-services" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nifi-phoenix-service-api-nar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nifi-phoenix-services" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nifi-phoenix-services" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nifi-phoenix-service-api-nar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nifi-phoenix-services" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nifi-phoenix-services" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nifi-phoenix-service-api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nifi-phoenix-services" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nifi-phoenix-services" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nifi-phoenix-service-api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="org" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="apache" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nifi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="phoenix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nifi-phoenix-services" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nifi-phoenix-services" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="nifi-phoenix-service" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -395,56 +575,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="phoenix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="util" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nifi-phoenix-services" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nifi-phoenix-services" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nifi-phoenix-service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="org" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="apache" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nifi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="phoenix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -497,14 +627,13 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -671,7 +800,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="nifi-phoenix-service" />
+      <module name="nifi-phoenix-service-nar" />
       <envs />
       <method />
     </configuration>
@@ -791,44 +920,45 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7e9919db-b2a3-4038-8918-39e23aff8c85" name="Default" comment="" />
-      <created>1519931540799</created>
+      <changelist id="cbcbe0fe-0ede-4193-b754-c865e68112fc" name="Default" comment="" />
+      <created>1521472048588</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1519931540799</updated>
+      <updated>1521472048588</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17864583" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -839,208 +969,22 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/nifi-phoenix-service/src/main/java/org/apache/nifi/phoenix/service/PhoenixConnectionPool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#14268#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nifi-phoenix-service-api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nifi-phoenix-service/src/main/java/org/apache/nifi/phoenix/util/PhoenixConfigurator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nifi-phoenix-service/src/main/java/org/apache/nifi/phoenix/util/AuthenticationFailedException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding>
-            <element signature="e#220#221#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nifi-phoenix-service/src/main/java/org/apache/nifi/phoenix/util/ValidationResources.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nifi-phoenix-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="51" column="21" lean-forward="false" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nifi-phoenix-service-api/src/main/java/org/apache/nifi/phoenix/service/PhoenixDBCPService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="32" column="25" lean-forward="false" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nifi-phoenix-service/src/main/java/org/apache/nifi/phoenix/util/AuthenticationFailedException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding>
-            <element signature="e#220#221#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nifi-phoenix-service/src/main/java/org/apache/nifi/phoenix/util/ValidationResources.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/security/PrivilegedExceptionAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="60" column="6" lean-forward="false" selection-start-line="60" selection-start-column="6" selection-end-line="60" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#1797#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nifi-phoenix-service-api/src/main/java/org/apache/nifi/phoenix/service/PhoenixDBCPService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nifi-phoenix-service/src/main/java/org/apache/nifi/phoenix/util/PhoenixJdbcCommon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9156">
-          <caret line="436" column="25" lean-forward="false" selection-start-line="436" selection-start-column="25" selection-end-line="436" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#10333#10334#0" expanded="true" />
-            <element signature="e#10377#10378#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/nifi-phoenix-service/src/main/java/org/apache/nifi/phoenix/processors/SelectPhoenixQL.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2024">
-          <caret line="164" column="0" lean-forward="false" selection-start-line="164" selection-start-column="0" selection-end-line="164" selection-end-column="0" />
+        <state relative-caret-position="293">
+          <caret line="83" column="13" lean-forward="false" selection-start-line="83" selection-start-column="13" selection-end-line="83" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nifi-phoenix-service/src/main/java/org/apache/nifi/phoenix/processors/UpsertPhoenixQL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3528">
+          <caret line="168" column="1" lean-forward="false" selection-start-line="168" selection-start-column="1" selection-end-line="168" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#8835#8836#0" expanded="true" />
-            <element signature="e#8871#8872#0" expanded="true" />
-            <element signature="e#8961#8962#0" expanded="true" />
-            <element signature="e#8999#9000#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nifi-phoenix-service-api-nar/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-231">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nifi-phoenix-service-nar/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-197">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nifi-phoenix-service-api/nifi-phoenix-service-api.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="2" lean-forward="false" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nifi-phoenix-service-api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="661">
-          <caret line="37" column="21" lean-forward="false" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nifi-phoenix-service/src/main/java/org/apache/nifi/phoenix/util/PhoenixConfigurator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nifi-phoenix-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="559">
-          <caret line="85" column="20" lean-forward="false" selection-start-line="85" selection-start-column="20" selection-end-line="85" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nifi-phoenix-service/src/main/java/org/apache/nifi/phoenix/service/PhoenixConnectionPool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4080">
-          <caret line="73" column="13" lean-forward="false" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#14268#0" expanded="true" />
-            <element signature="imports" expanded="true" />
+            <element signature="e#2606#2614#0" expanded="true" />
+            <element signature="e#6864#6872#0" expanded="true" />
           </folding>
         </state>
       </provider>
